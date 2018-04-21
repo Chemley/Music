@@ -26,8 +26,14 @@ public class PrinceTest {
     @Test
     public void testGetVenue(){
         Prince prince = new Prince();
-        assertEquals(Venue.STADIUM, prince.getVenue() );
+        assertEquals(Venue.STADIUM, prince.getVenue());
 
+    }
+
+    @Test
+    public void testGetGenre(){
+        Prince prince = new Prince();
+        assertEquals(Genre.RNB, prince.getGenre());
     }
 
 
