@@ -1,0 +1,3 @@
+public enum Genre {
+    CLASSICAL, HIP_HOP, FOLK, JAZZ, ROCK, RNB, HEAVY_METAL
+}
